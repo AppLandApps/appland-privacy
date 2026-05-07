@@ -8,7 +8,7 @@ Subwhere is published by AppLand (Stefan Almqvist), based in Sweden.
 
 Contact: almqviststefan@gmail.com
 
-What we collect
+<b>What we collect</b>
 
 Subwhere does not collect, store, or transmit any personal data.
 The App uses the following information only on your device, never sent to us or any third party we control:
@@ -20,12 +20,13 @@ Device motion and orientation — used for AR rendering. Processed on your devic
 
 We do not use analytics, tracking SDKs, advertising, crash-reporting services, or any third-party data collection.
 
-Data sent to third parties
+<b>Data sent to third parties</b>
 
 The App requests live train data from Trafiklab (https://www.trafiklab.se), a public transit data service operated by Samtrafiken. The App sends a request for current Stockholm subway train positions; this request does not contain any personal information about you. Trafiklab's privacy policy applies to that interaction: https://www.trafiklab.se/sv/anvandarvillkor/
+
 When using AR features, the App relies on Apple's ARKit and ARGeoTracking. These are operating-system services provided by Apple. Apple may collect data as described in Apple's own privacy policy: https://www.apple.com/legal/privacy/
 
-Permissions
+<b>Permissions</b>
 
 The App will ask for permission to use:
 
@@ -34,11 +35,12 @@ Location (when in use) — required to show trains near you. The App cannot work
 
 You can revoke these permissions at any time in iOS Settings → Subwhere.
 
-Children
+<b>Children</b>
 
 The App is not directed at children under 13 and does not knowingly collect any data from anyone.
 Changes to this policy
 If we change this policy, we will update the "Last updated" date above.
 
-Contact
+<b>Contact</b>
+
 Questions? Email almqviststefan@gmail.com.
