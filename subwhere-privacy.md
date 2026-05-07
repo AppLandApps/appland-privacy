@@ -1,4 +1,4 @@
-Privacy Policy for Subwhere
+<b>Privacy Policy for Subwhere</b>
 
 Last updated: 7 May 2026
 
@@ -35,6 +35,7 @@ Location (when in use) — required to show trains near you. The App cannot work
 You can revoke these permissions at any time in iOS Settings → Subwhere.
 
 Children
+
 The App is not directed at children under 13 and does not knowingly collect any data from anyone.
 Changes to this policy
 If we change this policy, we will update the "Last updated" date above.
