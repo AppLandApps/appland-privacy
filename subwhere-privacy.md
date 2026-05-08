@@ -6,7 +6,7 @@ This Privacy Policy describes how Subwhere ("the App", "we", "us") handles infor
 
 Subwhere is published by AppLand (Stefan Almqvist), based in Sweden. 
 
-Contact: almqviststefan@gmail.com
+Contact: applandapps@gmail.com
 
 <b>What we collect</b>
 
@@ -43,4 +43,4 @@ If we change this policy, we will update the "Last updated" date above.
 
 <b>Contact</b>
 
-Questions? Email almqviststefan@gmail.com.
+Questions? Email applandapps@gmail.com.
