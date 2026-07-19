@@ -1,8 +1,8 @@
 # VISCERA: Privacy Policy and Support
 
-Developer: Stefan Almqvist (appland)
+Developer: Stefan Almqvist (Appland)
 
-App: VISCERA (com.appland.viscera)
+App: VISCERA
 
 Last updated: 2026-07-19
 
