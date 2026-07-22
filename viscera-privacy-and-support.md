@@ -82,7 +82,7 @@ When stopping a recording session you are automatically promted to save your out
 
 ### What does Pro Unlock include?
 
-Pro Unlock is a single one-time purchase, not a subscription. It unlocks all audio slots, audio import, audio export, multitouch, all 9 effects and save presets. Once purchased it is permanently tied to your Apple ID.
+Pro Unlock is a single one-time purchase, not a subscription. It unlocks all audio slots, audio import, audio export and the save presets function. Once purchased it is permanently tied to your Apple ID.
 
 ### I bought Pro but it is not showing, or I got a new phone
 
