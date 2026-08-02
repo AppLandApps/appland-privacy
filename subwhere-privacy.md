@@ -15,7 +15,7 @@ The App uses the following information only on your device, never sent to us or 
 
 Camera feed - used by your device's augmented reality framework (ARKit on iOS, ARCore on Android) to display the augmented reality view and to recognise your surroundings for geographic localisation. The camera image is processed on your device and is never recorded, saved, or transmitted.
 
-Location — your approximate location is used to show subway trains running near you. Your location is processed on your device and never sent to our servers. It is never stored as a location history, shared, or sold. The same applies when the App provides location-based information through its optional home-screen widget (see "Widgets" below), including while the App is in the background or closed.
+Location - your approximate location is used to show subway trains running near you. Your location is processed on your device and never sent to our servers. It is never stored as a location history, shared, or sold. The same applies when the App provides location-based information through its optional home-screen widget (see "Widgets" below), including while the App is in the background or closed.
 
 Device motion and orientation - used for AR rendering. Processed on your device only.
 
