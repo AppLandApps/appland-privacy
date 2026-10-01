@@ -1,8 +1,8 @@
 # Privacy Policy for Subwhere London
 
-Last updated: 29 September 2026
+Last updated: 1 October 2026
 
-This Privacy Policy describes how Subwhere London ("Subwhere LDN" on your Home Screen; "the App", "we", "us") handles information when you use the App and its widgets on iOS and Android.
+This Privacy Policy describes how Subwhere London ("Subwhere" on your Home Screen; "the App", "we", "us") handles information when you use the App and its widgets on iOS and Android.
 
 Subwhere London is published by AppLand (Stefan Almqvist), based in Sweden.
 
@@ -80,7 +80,7 @@ The App will ask for permission to use:
 
 **Location** - needed to place trains around you and to find your nearest station. On iPhone and iPad it is also used by the widget's nearest-station mode.
 
-You can change these at any time: on iPhone and iPad in Settings under Subwhere LDN, and on Android in Settings under Apps, Subwhere LDN, Permissions.
+You can change these at any time: on iPhone and iPad in Settings under Subwhere, and on Android in Settings under Apps, Subwhere, Permissions.
 
 ## Your rights
 
