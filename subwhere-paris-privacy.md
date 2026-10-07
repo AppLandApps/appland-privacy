@@ -1,6 +1,6 @@
 # Privacy Policy for Subwhere Paris
 
-Last updated: 1 October 2026
+Last updated: 5 October 2026
 
 This Privacy Policy describes how Subwhere Paris ("Subwhere" on your Home Screen; "the App", "we", "us") handles information when you use the App and its widgets on iOS and Android.
 
@@ -20,7 +20,7 @@ The App does not collect personal data. There are no accounts, no analytics, no 
 
 **Device motion and compass heading.** Used for the AR view and the station compass. Processed on your device only.
 
-**Data kept on your device.** So the widget can work without opening the App, the App keeps the names of the Métro stations and their platforms, and the latest departures for your nearest station and your widgets' stations. It also remembers your language choice and whether you have seen the introduction. None of this is sent to us, and it is deleted when you delete the App.
+**Data kept on your device.** So the widget can work without opening the App, the App keeps the names of the Métro stations and their platforms, the latest departures for your nearest station and your widgets' stations, and the day's timetables of recent nearest and chosen stations. It also remembers your language choice and whether you have seen the introduction. None of this is sent to us, and it is deleted when you delete the App.
 
 We do not use analytics, tracking SDKs, advertising, crash-reporting services or any other third-party data collection. The App does not use an advertising identifier and does not track you across other companies' apps or websites.
 
@@ -34,9 +34,9 @@ On Android, the home-screen widget shows a station you choose. It does not use y
 
 ## Live train data
 
-Departures, train predictions and traffic information come from the open data of Île-de-France Mobilités, published on its PRIM platform. The App does not contact Île-de-France Mobilités itself. It asks a small service that AppLand runs on Cloudflare, which fetches the data from PRIM, stores it and passes it on. This keeps our PRIM access key out of the App and the load on PRIM low. Subwhere Paris is not affiliated with or endorsed by Île-de-France Mobilités or RATP.
+Departures, train predictions, timetables and traffic information come from the open data of Île-de-France Mobilités, published on its PRIM platform. The App does not contact Île-de-France Mobilités itself. It asks a small service that AppLand runs on Cloudflare, which fetches the data from PRIM, stores it and passes it on. This keeps our PRIM access key out of the App and the load on PRIM low. Subwhere Paris is not affiliated with or endorsed by Île-de-France Mobilités or RATP.
 
-These requests contain no account, no device identifier and no location coordinates. Most ask for the predictions for the whole network or the traffic information for every line, which are the same for everyone. When the App or a widget needs departures for a single station, the request names that station's platforms and nothing else about you. When the station is picked for you, it is the station nearest you.
+These requests contain no account, no device identifier and no location coordinates. Most ask for the predictions for the whole network or the traffic information for every line, which are the same for everyone. When the App or a widget needs departures or the timetable for a single station, the request names that station's platforms and nothing else about you. When the station is picked for you, it is the station nearest you.
 
 Like any internet connection, a request reaches our service with your device's IP address, which is needed to send the answer back. We do not keep logs of requests or IP addresses, and we do not use them to identify or follow anyone. Cloudflare processes this connection data on our behalf to deliver and protect the service, under its privacy policy: <https://www.cloudflare.com/privacypolicy/>
 
