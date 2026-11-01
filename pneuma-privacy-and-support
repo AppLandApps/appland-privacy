@@ -4,7 +4,7 @@ Developer: Stefan Almqvist (AppLand)
 
 App: PNEUMA
 
-Last updated: 2026-08-02
+Last updated: 2026-11-01
 
 Contact: applandapps@gmail.com
 
@@ -20,15 +20,31 @@ Nothing. PNEUMA does not collect personal information, usage data, device identi
 
 ### Microphone
 
-PNEUMA can record sound through your device microphone so you can use your own voice or surroundings as source material. Microphone access is used only while you are actively recording, and only after you grant permission. Recorded audio is written to local storage on your device and is never uploaded or shared by the app. You can deny or revoke microphone access at any time in the iOS Settings app, in which case recording features are simply unavailable.
+PNEUMA can record sound through your device microphone so you can use your own voice or surroundings as source material. Microphone access is used only while you are actively recording, and only after you grant permission. Recorded audio is written to local storage on your device and is never uploaded or shared by the app. You can deny or revoke microphone access at any time in the Settings app, in which case recording is simply unavailable. You can still import sounds.
 
-### Your audio and presets
+### Motion
 
-Any sounds you record, patches you save, and audio you export stay on your device, and in your own iCloud or Files backups if you choose to save them there. PNEUMA has no server access and cannot see or retrieve this content.
+PNEUMA reads your device's motion sensors so that tilting it can shape the sound. The tilt is used live, while you play, and is never stored or sent anywhere.
 
-### Purchases
+### Bluetooth
 
-PNEUMA offers a single one-time Pro Unlock in-app purchase. Purchases are processed entirely by Apple through the App Store using StoreKit. PNEUMA never sees or stores your payment information. Apple handling of your purchase is governed by the Apple Privacy Policy.
+PNEUMA uses Bluetooth only to connect wireless MIDI keyboards and controllers, and only when you pair one from MIDI settings. It does not collect information about your Bluetooth devices.
+
+### MIDI and your local network
+
+PNEUMA receives MIDI from keyboards connected by USB or Bluetooth, from other apps on the same device, and, if you connect to a network MIDI session over Wi-Fi, from devices on your local network. iOS may ask for permission to find devices on your local network. MIDI is used only to play sound and is never stored or sent to the internet. MIDI files you open are read on your device.
+
+### Your audio and configs
+
+Sounds you record or import, configs you save (with their loops and MIDI files), and WAV recordings you make all stay on your device, and in your own iCloud or Files backups if you choose to save them there. Configs are kept in a folder on your device that the app shares only with its own Audio Unit plugin, so a config you save in the app can be opened in the plugin. PNEUMA has no server and cannot see or retrieve any of this content. A WAV recording leaves your device only if you share it yourself from the share sheet.
+
+### The Audio Unit plugin
+
+PNEUMA includes an Audio Unit (AUv3) instrument that runs inside music apps such as GarageBand, Logic Pro, AUM and Cubasis. When you use it there, the sounds and settings you load are saved inside that music app's project, on your device or wherever that app stores its projects. The plugin collects no data either.
+
+### Purchase
+
+PNEUMA is a paid app with a one-time price. The purchase is handled entirely by Apple through the App Store. PNEUMA has no in-app purchases and never sees or stores your payment information. Apple's handling of your purchase is governed by the Apple Privacy Policy.
 
 ### No tracking or advertising
 
@@ -36,15 +52,15 @@ PNEUMA contains no advertising, no analytics or measurement SDKs, and no third-p
 
 ### Children
 
-PNEUMA does not collect data from anyone, including children. It is not directed at children under 13, and it produces loud, intense audio. Headphones and adult discretion are recommended.
+PNEUMA does not collect data from anyone, including children. It is not directed at children under 13. Keep the volume at a comfortable level, especially with headphones.
 
 ### Data retention and deletion
 
-All of your content lives only on your device, so you are in full control of it. Deleting a recording or preset in the app removes it. Deleting the app removes all of its local data.
+All of your content lives only on your device, so you are in full control of it. Deleting a recording or config in the app removes it. Deleting the app removes all of its local data, including its configs. Sounds the plugin saved inside a music app's project stay there until you delete them in that app.
 
 ### Third parties
 
-The only third party involved is Apple, which distributes the app and processes in-app purchases. PNEUMA integrates no other third-party services.
+The only third party involved is Apple, which distributes the app. PNEUMA integrates no other third-party services.
 
 ### Changes to this policy
 
@@ -60,37 +76,64 @@ applandapps@gmail.com
 
 Need help, found a bug, or have a feature request? Email applandapps@gmail.com and include your device model and iOS version so we can help faster. We aim to reply within a few business days.
 
+The info button (i) in the app explains every control.
+
 ### I do not hear anything
 
 Check these in order:
-1. Turn up the volume and make sure the silent switch is not muting the device.
-2. Load or record a sound first. PNEUMA plays back a sound you provide, so with nothing loaded there is little to hear.
-3. Touch and move on the pad. Sound is generated as you play.
-4. If you are recording, confirm you granted microphone permission in Settings, PNEUMA, Microphone.
+1. Turn up the volume and make sure the device is not muted.
+2. Load or record a sound first. PNEUMA plays sounds you give it, so with nothing loaded there is little to hear.
+3. Touch and move on the pad. Sound is made as you play.
+4. If the pause button is lit, tap it to resume.
+5. If you are recording, check that you granted microphone permission in Settings, PNEUMA, Microphone.
 
 ### How do I get a sound into the app?
 
-Record one with the microphone using the record control, then play it back on the pad. You can also import audio by tapping the X axis boxes at the top.
+Tap the mic in the middle of the bottom bar to record into a slot, and tap it again to stop. Or tap an empty slot (X1 to X4) at the top to import an audio file. You can load up to four sounds, one per slot. You can also open an audio file in PNEUMA from the Files app or another app's share sheet.
 
 ### How do I record my own voice?
 
-Grant microphone permission when prompted, or later in Settings, PNEUMA, Microphone. Tap record, make your sound, and stop. It becomes the source you play and transform.
+Grant microphone permission when asked, or later in Settings, PNEUMA, Microphone. Tap the mic, make your sound, and tap the mic again. It becomes a sound you play on the pad.
 
 ### How do I export what I make?
 
-When stopping a recording session you are automatically promted to save your output to a 24-bit WAV file.
+Tap the cassette button, right of the mic, to record everything you hear. Tap it again to stop. PNEUMA saves a 24-bit WAV file and opens the share sheet, so you can save it to Files or send it to another app.
 
-### What does Pro Unlock include?
+### How do I save my setup?
 
-Pro Unlock is a single one-time purchase, not a subscription. It unlocks all audio slots, audio import, audio export and the save presets function. Once purchased it is permanently tied to your Apple ID.
+Tap SAVE to keep all four slots, their sounds and settings, and your loop or MIDI file as a config. You can keep up to 12 configs. Tap OPEN to load one.
 
-### I bought Pro but it is not showing, or I got a new phone
+### Is there anything to unlock?
 
-Use Restore Purchases, available on the paywall or in Settings. This re-checks your Apple ID with the App Store and restores Pro Unlock at no charge. Make sure you are signed in with the same Apple ID you used for the purchase.
+No. PNEUMA is a one-time purchase with everything included. There are no subscriptions and no in-app purchases.
+
+### I got a new device or reinstalled PNEUMA
+
+Download PNEUMA again from the App Store with the same Apple ID. You will not be charged again. Your configs and recordings live on the device, so they come back only if you restore a backup of that device.
+
+### How do I connect a MIDI keyboard?
+
+Plug in a USB MIDI keyboard, or pair a Bluetooth MIDI keyboard from MIDI settings (the keys button at the top). You can also connect over Wi-Fi with network MIDI, or play PNEUMA from another app. MIDI settings also show the full MIDI map, including MPE.
+
+### How do loops and MIDI files work?
+
+Tap LOOP at the bottom left of the pad and play. Tap again to close the loop. It keeps playing while you play over it. Loops can be up to a minute long. Tap MIDI, next to LOOP, to open a MIDI file (.mid), which then plays your loaded sounds. Press and hold LOOP to record a new loop, or to pick a part of the MIDI file and set its speed.
+
+### How do I use PNEUMA in my music app?
+
+PNEUMA is also an Audio Unit (AUv3) instrument, installed together with the app. Open PNEUMA once after installing or updating, then add it as an instrument in your music app. For example, in GarageBand: new song, swipe to External, Audio Unit Extensions, PNEUMA. In AUM, Logic Pro for iPad, Cubasis and Loopy Pro, look for PNEUMA or AppLand under Audio Unit instruments.
+
+### PNEUMA does not show up in my music app
+
+Open PNEUMA once, close the music app completely (swipe it away) and open it again. If it is still missing, restart the device.
+
+### Can I use PNEUMA on my Mac?
+
+Yes, on a Mac with Apple silicon (M1 or later). Get PNEUMA from the Mac App Store with the same Apple ID: it is the same purchase. Open it once. PNEUMA then works as an instrument in Logic Pro, GarageBand, MainStage, Ableton Live (11.3 or later) and REAPER. Cubase, Pro Tools and Bitwig Studio cannot load Audio Units from App Store apps, and PNEUMA does not run on Intel Macs or Windows.
 
 ### Does PNEUMA work offline?
 
-Yes. PNEUMA runs entirely on the device and needs no internet connection. A connection is only used by Apple to process or restore a purchase.
+Yes. PNEUMA runs entirely on the device and needs no internet connection.
 
 ### Does PNEUMA collect my data or send my recordings anywhere?
 
